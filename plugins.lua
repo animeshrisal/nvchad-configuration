@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "sindrets/diffview.nvim",
+    event = "VeryLazy",
+  },
+  {
     "nvimtools/none-ls.nvim",
     event = "VeryLazy",
     opts = function()
